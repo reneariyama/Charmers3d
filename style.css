@@ -6699,7 +6699,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 .content-wrap {
 	position: relative;
-	padding: 60px 0;
+	padding: 40px 0;
 	overflow: hidden;
 }
 
