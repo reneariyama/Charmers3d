@@ -2836,6 +2836,7 @@ img.lazy:not([src]) {
 
 .fslider {
 	min-height: 32px;
+	max-height: 800px;
 }
 
 
@@ -2896,7 +2897,7 @@ html[xmlns] .slider-wrap {
 .no-js .slider-wrap > .slide:first-child {display: block;}
 
 .flex-viewport {
-	max-height: 2000px;
+	max-height: 900px;
 	-webkit-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
