@@ -453,6 +453,10 @@ span.middot {
 	color: rgba(0,0,0,0.1);
 }
 
+.text-nosotros{
+	color:#689194;
+}
+
 .imagescale,
 .imagescalein {
 	display: block;
