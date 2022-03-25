@@ -2900,12 +2900,19 @@ html[xmlns] .slider-wrap {
 
 .no-js .slider-wrap > .slide:first-child {display: block;}
 
+.slides li h1 {margin:0; padding: 0;}
+
 .flex-viewport {
-	max-height: 900px;
-	-webkit-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
+    max-height: 600px;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
+
+.flex-viewport  li:not(.flex-active-slide) img{ 
+
+	height: 0 !important;
+	}
 
 
 /* ----------------------------------------------------------------
